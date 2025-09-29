@@ -203,6 +203,7 @@ Anyone can deploy and whitelist strategies for standard ERC20s by using the `Str
 
 The following strategies were originally deployed and whitelisted outside of the `StrategyFactory`:
 
+
 | Name | Proxy | Implementation | Notes |
 | -------- | -------- | -------- | -------- | 
 | [`StrategyBase (stETH)`](https://github.com/Layr-Labs/eigenlayer-contracts/blob/v1.5.0/src/contracts/strategies/StrategyBaseTVLLimits.sol) | [`0x7D704507b76571a51d9caE8AdDAbBFd0ba0e63d3`](https://holesky.etherscan.io/address/0x7D704507b76571a51d9caE8AdDAbBFd0ba0e63d3) | [`0x332b...B518`](https://holesky.etherscan.io/address/0x332b384D7100bc8A6D1d1B99fa5D60834ac4B518) | Proxy: [`TUP@4.7.1`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.7.1/contracts/proxy/transparent/TransparentUpgradeableProxy.sol) |
